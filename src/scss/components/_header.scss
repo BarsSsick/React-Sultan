@@ -1,0 +1,155 @@
+.App-header {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+.header-info {
+  display: flex;
+  font-size: 12px;
+  &__location {
+    margin-right: 75px;
+    margin-left: 30px;
+    position: relative;
+    span {
+      color: #111;
+      font-weight: 600;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    p {
+      font-weight: 400;
+    }
+  }
+
+  &__email {
+    position: relative;
+    span {
+      color: #111;
+      font-weight: 600;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+  }
+}
+.fa-location-dot:before,
+.fa-map-marker-alt:before {
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-size: 20px;
+}
+.fa-envelope:before {
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-size: 20px;
+}
+.header-list {
+  display: flex;
+  li + li {
+    margin-left: 60px;
+  }
+}
+.header {
+  &__main {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.logo {
+  img {
+    width: 156px;
+    height: 66px;
+  }
+}
+.btn {
+  background-color: #ffc85e;
+  color: #fff;
+  padding: 21px 64px 21px 54px;
+  border-radius: 79px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  img {
+    margin-left: 10px;
+  }
+}
+.search-box {
+  position: relative;
+  cursor: pointer;
+  .search-img {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    background-color: #ffc85e;
+    padding-top: 11px;
+    padding-left: 11px;
+  }
+}
+.search {
+  border-radius: 36px;
+  padding: 20px;
+  width: 263px;
+  background-color: #ededed;
+  border: none;
+  position: relative;
+}
+.info {
+  display: flex;
+  align-items: center;
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 74px;
+  }
+  &__number {
+    margin-bottom: 5px;
+    color: #111;
+    font-weight: 600;
+  }
+  &__time {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  &__order-link {
+    font-size: 10px;
+  }
+}
+.cart-link {
+  display: flex;
+  position: relative;
+  img {
+    margin-right: 25px;
+  }
+  &__price {
+    span {
+      font-weight: 600;
+      color: #111;
+    }
+  }
+  .item-length {
+    color: #fff;
+    background-color: #ffc85e;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    top: -5px;
+    right: 70px;
+  }
+}
