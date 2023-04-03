@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Sultan/static/css/main.0b0f7fdb.css",
+    "main.js": "/React-Sultan/static/js/main.bd8f677f.js",
+    "index.html": "/React-Sultan/index.html",
+    "main.0b0f7fdb.css.map": "/React-Sultan/static/css/main.0b0f7fdb.css.map",
+    "main.bd8f677f.js.map": "/React-Sultan/static/js/main.bd8f677f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b0f7fdb.css",
+    "static/js/main.bd8f677f.js"
+  ]
+}
